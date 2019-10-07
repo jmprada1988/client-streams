@@ -2,7 +2,7 @@ import { SIGN_IN, SIGN_OUT } from "../actions/types";
 
 
 const INITIAL_STATE = {
-    isSignedIn: null,
+    isSignedIn: true,
     userId: '53fdjdslf42354235428'
 }
 export default (state= INITIAL_STATE, action) => {
