@@ -39,6 +39,7 @@ class StreamForm extends Component {
                 name="description"
                 component={this.renderInput}
                 label="Enter Description"
+                type="textarea"
                 />
                 <button className="ui button primary">Submit</button>
             </form>
